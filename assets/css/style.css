@@ -1,0 +1,50 @@
+:root {
+    --cream-color: #f0efdf;
+    --dark-purple: #54048a;
+    --dark-green: #366b0f;
+}
+
+body {
+    background-color: var(--cream-color);
+    color: var(--dark-purple);
+}
+
+.navbar a {
+    font-size: 12px;
+}
+
+.navbar-custom {
+    color: var(--dark-purple);
+    background-color: var(--cream-color);
+}
+
+/* Footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 10%;
+    color: var(--dark-purple);
+}
+
+/* Main content */
+main {
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+    margin-top: 0px;
+    height: 100%;
+}
+
+/* Hero section */
+#hero {
+    height: 400px;
+    width: 100%;
+    background: url("/assets/images/hero.png") no-repeat center center/cover;
+    position: relative;
+}
